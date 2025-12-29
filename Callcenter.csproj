@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);SYSLIB0011</NoWarn>
+	<WarningsAsErrors>CS3001;CS3002;CS3003;CS3004;CS3005;CS3006</WarningsAsErrors>
+	<StartupObject>Callcenter.Program</StartupObject>
+  </PropertyGroup>
+</Project>
